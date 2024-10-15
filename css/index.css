@@ -51,12 +51,15 @@ main{
     justify-content: center;
     padding-bottom: 20px;
     gap: 20px;
+    padding: 10px;
 }
 main img{
-    max-height: 80dvh;
+    max-height: 100dvh;
+    max-width: 80dvw;
+
 }
 .qr{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     align-self: center;
 }
