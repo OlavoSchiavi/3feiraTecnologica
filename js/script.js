@@ -1,4 +1,4 @@
-var fileUrl = window.location.href + "/VitalSync";
+var fileUrl = window.location.href + "VitalSync.apk";
 
         // Gera o QR code no div com o ID "qrcode"
         var qrcode = new QRCode(document.getElementById("qrcode"), {
