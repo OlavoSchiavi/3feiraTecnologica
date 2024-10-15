@@ -1,32 +1,15 @@
-header ul{
-    display: flex;
-    gap: 10px;
-}
-.btnHeader{
-    border: none;
-    border-bottom: 1px solid aqua;
-    background-color: transparent;
-    min-width: 100px;
-    height: 50px;
-    transition: ease-in-out 0.1s;
-}
-.btnHeader:active{
-    background-color: white;
-    border-radius: 30px;
-    border-color: transparent;
-}
+
 header{
-    background-color: rgb(131, 129, 129);
-    display: flex;
-    justify-content: space-between;
+    background-color: #9EE37D;
     padding: 20px;
-    align-items: center;
+    border-radius: 0px 0px 30px 30px;
 }
 header div{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    align-self: center;
 }
 header h1{
     font-size: 40px;
@@ -38,11 +21,13 @@ header img{
     border-radius: 20px;
     object-fit: cover;
     object-position: center;
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 15px #358600;
 }
 footer{
-    background-color: #121212;
+    background-color: #358600;
     min-height: 10dvh;
+    border-radius: 30px 30px 0px 0px ;
+    
 }
 main{
     min-height: 80dvh;
@@ -52,14 +37,16 @@ main{
     padding-bottom: 20px;
     gap: 20px;
     padding: 10px;
+    background-color:  transparent;
 }
 main img{
     max-height: 100dvh;
     max-width: 80dvw;
-
+    border-radius: 30px;
 }
 .qr{
     height: 300px;
     width: 300px;
     align-self: center;
+    border: 1px solid black;
 }
